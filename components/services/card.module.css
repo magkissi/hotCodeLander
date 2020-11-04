@@ -1,0 +1,22 @@
+.container {
+  margin-left: 45px;
+}
+
+.container a {
+  color: #0099d8;
+  font-weight: 500;
+}
+
+.container img {
+  width: 40px;
+  margin-top: 20px;
+}
+
+#heading {
+  font-weight: 800;
+  font-size: 16px;
+}
+
+#details p {
+  font-size: 15px;
+}

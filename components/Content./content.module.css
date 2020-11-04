@@ -1,0 +1,43 @@
+.container {
+  width: 500px;
+  margin-left: 250px;
+  margin-top: 100px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.container h1 {
+  font-size: 50px;
+}
+
+.container p {
+  font-size: 20px;
+}
+
+.mainWrapper {
+  color: #ffff;
+  background-image: url("/codeBackground.jpg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  border-bottom-left-radius: 25%;
+  border-bottom-right-radius: 25%;
+  overflow-x: hidden;
+}
+
+.overlay {
+  background-color: #0099d8;
+  opacity: 0.8;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  right: 0;
+  z-index: 1;
+  border-bottom-left-radius: 25%;
+  border-bottom-right-radius: 25%;
+}

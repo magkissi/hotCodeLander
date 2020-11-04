@@ -1,0 +1,35 @@
+.nav {
+  position: relative;
+  width: 100%;
+}
+
+.nav_items {
+  display: flex;
+  font-weight: 500;
+  margin-right: 250px;
+}
+
+.nav_items a:hover {
+  text-decoration: underline;
+}
+
+.nav_item {
+  padding: 20px;
+}
+
+.navInner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+  color: #ffff;
+}
+
+#navlogo {
+  cursor: pointer;
+  margin-left: 250px;
+}
