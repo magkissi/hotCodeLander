@@ -1,0 +1,45 @@
+.subjectCard__container {
+  display: flex;
+
+  height: 50px;
+  width: 900px;
+  background-color: #ffff;
+  margin-bottom: 20px;
+}
+
+.subjectCard__container p {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+}
+
+.subject__container {
+  padding-top: 50px;
+  padding-left: 300px;
+}
+
+.mainContainer {
+  background-color: rgba(250, 248, 248, 0.7);
+  height: 700px;
+}
+
+.mainContainer h1 {
+  text-align: center;
+  padding-top: 80px;
+}
+
+#left {
+  width: 5px;
+  margin-right: 15px;
+  background-color: #0aacf1;
+}
+
+.subjectCard__details {
+  display: flex;
+  align-items: center;
+}
+
+#subject__btn {
+  margin-left: 400px;
+  margin-top: 50px;
+}
