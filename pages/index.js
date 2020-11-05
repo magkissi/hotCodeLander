@@ -1,7 +1,7 @@
 import styles from "../styles/Home.module.css";
 import Nav from "../components/navBar/Nav";
 import Content from "../components/Content./Content";
-import Services from "../components/services/Services";
+import Benefits from "../components/benefit/Benefits";
 
 export default function Home() {
   return (
@@ -13,14 +13,10 @@ export default function Home() {
         <section>
           <Content />
         </section>
-        <section>
-          <Content />
-        </section>
-        <section>
-          <Content />
+        <section className={styles.benefits}>
+          <Benefits title="Amazing benefits for everyone" />
         </section>
       </div>
-      <section>{/* <Benefits /> */}</section>
     </>
   );
 }
